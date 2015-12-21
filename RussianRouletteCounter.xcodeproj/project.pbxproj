@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		194B094B1C24EB28006DD752 /* cursor4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 194B094A1C24EB28006DD752 /* cursor4.mp3 */; };
+		194B094D1C24EBEB006DD752 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194B094C1C24EBEB006DD752 /* AVFoundation.framework */; };
+		194B094F1C24F0A8006DD752 /* cancel2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 194B094E1C24F0A8006DD752 /* cancel2.mp3 */; };
+		194B09511C24F2C5006DD752 /* bomb1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 194B09501C24F2C5006DD752 /* bomb1.mp3 */; };
+		194B09571C254FD4006DD752 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194B09561C254FD4006DD752 /* Media.xcassets */; };
+		194B095C1C264030006DD752 /* Icon_120pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 194B095B1C264030006DD752 /* Icon_120pt.png */; };
+		19AA1C811C24818F00140F5C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AA1C801C24818F00140F5C /* CoreMotion.framework */; };
+		19BA6EDC1C23303000F158F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BA6EDB1C23303000F158F7 /* AppDelegate.swift */; };
+		19BA6EDE1C23303000F158F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BA6EDD1C23303000F158F7 /* ViewController.swift */; };
+		19BA6EE11C23303000F158F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BA6EDF1C23303000F158F7 /* Main.storyboard */; };
+		19BA6EE61C23303000F158F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BA6EE41C23303000F158F7 /* LaunchScreen.storyboard */; };
+		19BA6EF11C23303000F158F7 /* RussianRouletteCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BA6EF01C23303000F158F7 /* RussianRouletteCounterTests.swift */; };
+		19BA6EFC1C23303000F158F7 /* RussianRouletteCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BA6EFB1C23303000F158F7 /* RussianRouletteCounterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19BA6EED1C23303000F158F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19BA6ED01C23303000F158F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19BA6ED71C23303000F158F7;
+			remoteInfo = RussianRouletteCounter;
+		};
+		19BA6EF81C23303000F158F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19BA6ED01C23303000F158F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19BA6ED71C23303000F158F7;
+			remoteInfo = RussianRouletteCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		194B094A1C24EB28006DD752 /* cursor4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cursor4.mp3; sourceTree = "<group>"; };
+		194B094C1C24EBEB006DD752 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		194B094E1C24F0A8006DD752 /* cancel2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cancel2.mp3; sourceTree = "<group>"; };
+		194B09501C24F2C5006DD752 /* bomb1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb1.mp3; sourceTree = "<group>"; };
+		194B09561C254FD4006DD752 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		194B095B1C264030006DD752 /* Icon_120pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_120pt.png; sourceTree = "<group>"; };
+		19AA1C801C24818F00140F5C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		19BA6ED81C23303000F158F7 /* RussianRouletteCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussianRouletteCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BA6EDB1C23303000F158F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19BA6EDD1C23303000F158F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19BA6EE01C23303000F158F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19BA6EE51C23303000F158F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19BA6EE71C23303000F158F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BA6EEC1C23303000F158F7 /* RussianRouletteCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussianRouletteCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BA6EF01C23303000F158F7 /* RussianRouletteCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianRouletteCounterTests.swift; sourceTree = "<group>"; };
+		19BA6EF21C23303000F158F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BA6EF71C23303000F158F7 /* RussianRouletteCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussianRouletteCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BA6EFB1C23303000F158F7 /* RussianRouletteCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianRouletteCounterUITests.swift; sourceTree = "<group>"; };
+		19BA6EFD1C23303000F158F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19BA6ED51C23303000F158F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194B094D1C24EBEB006DD752 /* AVFoundation.framework in Frameworks */,
+				19AA1C811C24818F00140F5C /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BA6EE91C23303000F158F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BA6EF41C23303000F158F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		194B09581C263E29006DD752 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				194B09501C24F2C5006DD752 /* bomb1.mp3 */,
+				194B094A1C24EB28006DD752 /* cursor4.mp3 */,
+				194B094E1C24F0A8006DD752 /* cancel2.mp3 */,
+				194B095B1C264030006DD752 /* Icon_120pt.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19BA6ECF1C23303000F158F7 = {
+			isa = PBXGroup;
+			children = (
+				194B094C1C24EBEB006DD752 /* AVFoundation.framework */,
+				19AA1C801C24818F00140F5C /* CoreMotion.framework */,
+				19BA6EDA1C23303000F158F7 /* RussianRouletteCounter */,
+				19BA6EEF1C23303000F158F7 /* RussianRouletteCounterTests */,
+				19BA6EFA1C23303000F158F7 /* RussianRouletteCounterUITests */,
+				19BA6ED91C23303000F158F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19BA6ED91C23303000F158F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19BA6ED81C23303000F158F7 /* RussianRouletteCounter.app */,
+				19BA6EEC1C23303000F158F7 /* RussianRouletteCounterTests.xctest */,
+				19BA6EF71C23303000F158F7 /* RussianRouletteCounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19BA6EDA1C23303000F158F7 /* RussianRouletteCounter */ = {
+			isa = PBXGroup;
+			children = (
+				194B09581C263E29006DD752 /* Resources */,
+				19BA6EDB1C23303000F158F7 /* AppDelegate.swift */,
+				19BA6EDD1C23303000F158F7 /* ViewController.swift */,
+				19BA6EDF1C23303000F158F7 /* Main.storyboard */,
+				19BA6EE41C23303000F158F7 /* LaunchScreen.storyboard */,
+				19BA6EE71C23303000F158F7 /* Info.plist */,
+				194B09561C254FD4006DD752 /* Media.xcassets */,
+			);
+			path = RussianRouletteCounter;
+			sourceTree = "<group>";
+		};
+		19BA6EEF1C23303000F158F7 /* RussianRouletteCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				19BA6EF01C23303000F158F7 /* RussianRouletteCounterTests.swift */,
+				19BA6EF21C23303000F158F7 /* Info.plist */,
+			);
+			path = RussianRouletteCounterTests;
+			sourceTree = "<group>";
+		};
+		19BA6EFA1C23303000F158F7 /* RussianRouletteCounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19BA6EFB1C23303000F158F7 /* RussianRouletteCounterUITests.swift */,
+				19BA6EFD1C23303000F158F7 /* Info.plist */,
+			);
+			path = RussianRouletteCounterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19BA6ED71C23303000F158F7 /* RussianRouletteCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BA6F001C23303000F158F7 /* Build configuration list for PBXNativeTarget "RussianRouletteCounter" */;
+			buildPhases = (
+				19BA6ED41C23303000F158F7 /* Sources */,
+				19BA6ED51C23303000F158F7 /* Frameworks */,
+				19BA6ED61C23303000F158F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RussianRouletteCounter;
+			productName = RussianRouletteCounter;
+			productReference = 19BA6ED81C23303000F158F7 /* RussianRouletteCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19BA6EEB1C23303000F158F7 /* RussianRouletteCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BA6F031C23303000F158F7 /* Build configuration list for PBXNativeTarget "RussianRouletteCounterTests" */;
+			buildPhases = (
+				19BA6EE81C23303000F158F7 /* Sources */,
+				19BA6EE91C23303000F158F7 /* Frameworks */,
+				19BA6EEA1C23303000F158F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19BA6EEE1C23303000F158F7 /* PBXTargetDependency */,
+			);
+			name = RussianRouletteCounterTests;
+			productName = RussianRouletteCounterTests;
+			productReference = 19BA6EEC1C23303000F158F7 /* RussianRouletteCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19BA6EF61C23303000F158F7 /* RussianRouletteCounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BA6F061C23303000F158F7 /* Build configuration list for PBXNativeTarget "RussianRouletteCounterUITests" */;
+			buildPhases = (
+				19BA6EF31C23303000F158F7 /* Sources */,
+				19BA6EF41C23303000F158F7 /* Frameworks */,
+				19BA6EF51C23303000F158F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19BA6EF91C23303000F158F7 /* PBXTargetDependency */,
+			);
+			name = RussianRouletteCounterUITests;
+			productName = RussianRouletteCounterUITests;
+			productReference = 19BA6EF71C23303000F158F7 /* RussianRouletteCounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19BA6ED01C23303000F158F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = kNagadou;
+				TargetAttributes = {
+					19BA6ED71C23303000F158F7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = JY4BKM8DT7;
+					};
+					19BA6EEB1C23303000F158F7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 19BA6ED71C23303000F158F7;
+					};
+					19BA6EF61C23303000F158F7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 19BA6ED71C23303000F158F7;
+					};
+				};
+			};
+			buildConfigurationList = 19BA6ED31C23303000F158F7 /* Build configuration list for PBXProject "RussianRouletteCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19BA6ECF1C23303000F158F7;
+			productRefGroup = 19BA6ED91C23303000F158F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19BA6ED71C23303000F158F7 /* RussianRouletteCounter */,
+				19BA6EEB1C23303000F158F7 /* RussianRouletteCounterTests */,
+				19BA6EF61C23303000F158F7 /* RussianRouletteCounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19BA6ED61C23303000F158F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194B094F1C24F0A8006DD752 /* cancel2.mp3 in Resources */,
+				194B09571C254FD4006DD752 /* Media.xcassets in Resources */,
+				19BA6EE61C23303000F158F7 /* LaunchScreen.storyboard in Resources */,
+				194B09511C24F2C5006DD752 /* bomb1.mp3 in Resources */,
+				19BA6EE11C23303000F158F7 /* Main.storyboard in Resources */,
+				194B095C1C264030006DD752 /* Icon_120pt.png in Resources */,
+				194B094B1C24EB28006DD752 /* cursor4.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BA6EEA1C23303000F158F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BA6EF51C23303000F158F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19BA6ED41C23303000F158F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BA6EDE1C23303000F158F7 /* ViewController.swift in Sources */,
+				19BA6EDC1C23303000F158F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BA6EE81C23303000F158F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BA6EF11C23303000F158F7 /* RussianRouletteCounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BA6EF31C23303000F158F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BA6EFC1C23303000F158F7 /* RussianRouletteCounterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19BA6EEE1C23303000F158F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19BA6ED71C23303000F158F7 /* RussianRouletteCounter */;
+			targetProxy = 19BA6EED1C23303000F158F7 /* PBXContainerItemProxy */;
+		};
+		19BA6EF91C23303000F158F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19BA6ED71C23303000F158F7 /* RussianRouletteCounter */;
+			targetProxy = 19BA6EF81C23303000F158F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19BA6EDF1C23303000F158F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19BA6EE01C23303000F158F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19BA6EE41C23303000F158F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19BA6EE51C23303000F158F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19BA6EFE1C23303000F158F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19BA6EFF1C23303000F158F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19BA6F011C23303000F158F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RussianRouletteCounter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud-kzms33-4.RussianRouletteCounter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		19BA6F021C23303000F158F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RussianRouletteCounter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud-kzms33-4.RussianRouletteCounter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		19BA6F041C23303000F158F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RussianRouletteCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud-kzms33-4.RussianRouletteCounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RussianRouletteCounter.app/RussianRouletteCounter";
+			};
+			name = Debug;
+		};
+		19BA6F051C23303000F158F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RussianRouletteCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud-kzms33-4.RussianRouletteCounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RussianRouletteCounter.app/RussianRouletteCounter";
+			};
+			name = Release;
+		};
+		19BA6F071C23303000F158F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RussianRouletteCounterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud-kzms33-4.RussianRouletteCounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RussianRouletteCounter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		19BA6F081C23303000F158F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RussianRouletteCounterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud-kzms33-4.RussianRouletteCounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RussianRouletteCounter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19BA6ED31C23303000F158F7 /* Build configuration list for PBXProject "RussianRouletteCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BA6EFE1C23303000F158F7 /* Debug */,
+				19BA6EFF1C23303000F158F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19BA6F001C23303000F158F7 /* Build configuration list for PBXNativeTarget "RussianRouletteCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BA6F011C23303000F158F7 /* Debug */,
+				19BA6F021C23303000F158F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19BA6F031C23303000F158F7 /* Build configuration list for PBXNativeTarget "RussianRouletteCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BA6F041C23303000F158F7 /* Debug */,
+				19BA6F051C23303000F158F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19BA6F061C23303000F158F7 /* Build configuration list for PBXNativeTarget "RussianRouletteCounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BA6F071C23303000F158F7 /* Debug */,
+				19BA6F081C23303000F158F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19BA6ED01C23303000F158F7 /* Project object */;
+}
